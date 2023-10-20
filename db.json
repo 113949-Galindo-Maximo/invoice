@@ -1,29 +1,41 @@
-{
-  "portafolio": [
+ {
+  "id": 7,
+  "clientId": 1,
+  "date": 1697594043715,
+  "cuit": "30715420607",
+  "razonSocial": "ferranorte",
+  "nroPedido": 1,
+  "status": "PENDING",
+  "type": "A",
+  "totalAmount": 50.94,
+  "iva": 0.21,
+  "ivaAmount": 10.7,
+  "totalAmountWithoutIva": 40.24,
+  "paymentMethods": [
     {
-      "user_token": "QpwL5tke4Pnpja7X4",
-      "saldoCuenta": 1011500,
-      "totalInvertido": 17500,
-      "acciones": [
-        {
-          "id": 1,
-          "accion": "AAPL (Apple Inc.)",
-          "valorAccion": 1000,
-          "cantidad": 10,
-          "valor": 10000,
-          "ganancia": 2500,
-          "perdida": 0
-        },
-        {
-          "id": 2,
-          "accion": "GOOGL (Alphabet Inc.)",
-          "valorAccion": 1500,
-          "cantidad": 5,
-          "valor": 7500,
-          "ganancia": 0,
-          "perdida": 1000
-        }
-      ]
+      "id": 7,
+      "amount": 50.94,
+      "paymentMethod": {
+        "id": 1,
+        "name": "Debito"
+      },
+      "observations": null
     }
-  ]
+  ],
+  "details": [
+    {
+      "id": 13,
+      "productId": 456,
+      "count": 3,
+      "price": 10.99,
+      "measurementUnit": null
+    },
+    {
+      "id": 14,
+      "productId": 789,
+      "count": 3,
+      "price": 5.99,
+      "measurementUnit": null
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "invoice": [
+  "invoices": [
     {
-      "id": 7,
+      "id": 1,
       "clientId": 1,
       "date": 1697594043715,
       "cuit": "30715420607",
@@ -37,6 +37,88 @@
           "productId": 789,
           "count": 3,
           "price": 5.99,
+          "measurementUnit": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "clientId": 2,
+      "date": 1697594044715,
+      "cuit": "40615480923",
+      "razonSocial": "EjemploEmpresa",
+      "nroPedido": 2,
+      "status": "PAID",
+      "type": "B",
+      "totalAmount": 75.50,
+      "iva": 0.18,
+      "ivaAmount": 13.59,
+      "totalAmountWithoutIva": 61.91,
+      "paymentMethods": [
+        {
+          "id": 8,
+          "amount": 75.50,
+          "paymentMethod": {
+            "id": 2,
+            "name": "Tarjeta de Crédito"
+          },
+          "observations": "Pago exitoso"
+        }
+      ],
+      "details": [
+        {
+          "id": 15,
+          "productId": 123,
+          "count": 5,
+          "price": 8.99,
+          "measurementUnit": null
+        },
+        {
+          "id": 16,
+          "productId": 789,
+          "count": 2,
+          "price": 7.99,
+          "measurementUnit": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "clientId": 3,
+      "date": 1697594045715,
+      "cuit": "60512345678",
+      "razonSocial": "OtraEmpresa",
+      "nroPedido": 3,
+      "status": "DELIVERED",
+      "type": "C",
+      "totalAmount": 120.75,
+      "iva": 0.16,
+      "ivaAmount": 19.32,
+      "totalAmountWithoutIva": 101.43,
+      "paymentMethods": [
+        {
+          "id": 9,
+          "amount": 120.75,
+          "paymentMethod": {
+            "id": 3,
+            "name": "Transferencia Bancaria"
+          },
+          "observations": "Pago recibido"
+        }
+      ],
+      "details": [
+        {
+          "id": 17,
+          "productId": 789,
+          "count": 10,
+          "price": 9.99,
+          "measurementUnit": null
+        },
+        {
+          "id": 18,
+          "productId": 456,
+          "count": 4,
+          "price": 6.99,
           "measurementUnit": null
         }
       ]

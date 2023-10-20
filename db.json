@@ -1,41 +1,41 @@
  {
-  "id": 7,
-  "clientId": 1,
-  "date": 1697594043715,
-  "cuit": "30715420607",
-  "razonSocial": "ferranorte",
-  "nroPedido": 1,
-  "status": "PENDING",
-  "type": "A",
-  "totalAmount": 50.94,
-  "iva": 0.21,
-  "ivaAmount": 10.7,
-  "totalAmountWithoutIva": 40.24,
-  "paymentMethods": [
-    {
-      "id": 7,
-      "amount": 50.94,
-      "paymentMethod": {
-        "id": 1,
-        "name": "Debito"
-      },
-      "observations": null
-    }
-  ],
-  "details": [
-    {
-      "id": 13,
-      "productId": 456,
-      "count": 3,
-      "price": 10.99,
-      "measurementUnit": null
-    },
-    {
-      "id": 14,
-      "productId": 789,
-      "count": 3,
-      "price": 5.99,
-      "measurementUnit": null
-    }
-  ]
+   "id": 7,
+   "clientId": 1,
+   "date": 1697594043715,
+   "cuit": "30715420607",
+   "razonSocial": "ferranorte",
+   "nroPedido": 1,
+   "status": "PENDING",
+   "type": "A",
+   "totalAmount": 50.94,
+   "iva": 0.21,
+   "ivaAmount": 10.7,
+   "totalAmountWithoutIva": 40.24,
+   "paymentMethods": [
+     {
+       "id": 7,
+       "amount": 50.94,
+       "paymentMethod": {
+         "id": 1,
+         "name": "Debito"
+       },
+       "observations": null
+     }
+   ],
+   "details": [
+     {
+       "id": 13,
+       "productId": 456,
+       "count": 3,
+       "price": 10.99,
+       "measurementUnit": null
+     },
+     {
+       "id": 14,
+       "productId": 789,
+       "count": 3,
+       "price": 5.99,
+       "measurementUnit": null
+     }
+   ]
 }
